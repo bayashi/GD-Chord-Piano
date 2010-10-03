@@ -1,0 +1,23 @@
+---
+name: GD-Chord-Piano
+version: 0.0.5
+author:
+  - 'Dai Okabayashi <bayashi@cpan.org>'
+abstract: Generate Chord Table of Piano
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Carp: 0
+  Class::Accessor::Fast: 0
+  GD: 2.3
+  Test::More: 0
+  version: 0
+provides:
+  GD::Chord::Piano:
+    file: lib/GD/Chord/Piano.pm
+    version: 0.0.5
+generated_by: Module::Build version 0.3
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
