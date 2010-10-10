@@ -11,7 +11,7 @@ __PACKAGE__->mk_accessors(
     qw(bgcolor color pcolor tcolor interlaced)
 );
 
-use version; our $VERSION = qv('0.0.5');
+our $VERSION = '0.0.6';
 
 my $base_chord_list = {
     'base'     => '0,4,7',

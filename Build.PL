@@ -9,8 +9,7 @@ my $builder = Module::Build->new(
     dist_version_from   => 'lib/GD/Chord/Piano.pm',
     requires => {
         'Test::More'            => 0,
-        'version'               => 0,
-		'Carp'                  => 0,
+        'Carp'                  => 0,
         'Class::Accessor::Fast' => 0,
         'GD'                    => 2.30,
     },

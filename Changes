@@ -1,5 +1,9 @@
 Revision history for GD-Chord-Piano
 
+0.0.6  Sat Oct 11 00:30:00 2010
+       removed version module
+       shipit
+
 0.0.5  Fri Dec 12 13:25:25 2008
        fixed cord list. fixed etc and added tests
 
