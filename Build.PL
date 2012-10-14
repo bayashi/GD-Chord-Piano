@@ -8,6 +8,7 @@ my $builder = Module::Build->new(
     dist_author         => 'Dai Okabayashi <bayashi@cpan.org>',
     dist_version_from   => 'lib/GD/Chord/Piano.pm',
     requires => {
+        'perl'                  => '5.6.2',
         'Test::More'            => 0,
         'Carp'                  => 0,
         'Class::Accessor::Fast' => 0,

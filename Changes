@@ -1,5 +1,11 @@
 Revision history for GD-Chord-Piano
 
+0.061  Sun Oct 14 16:10:00 JST 2012
+        [NO CODE CHANGE]
+        - changed style of version
+        - fixed for kwalitee
+        - support travis-ci(on github)
+
 0.0.6  Sat Oct 11 00:30:00 2010
        removed version module
        shipit
