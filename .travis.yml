@@ -4,12 +4,8 @@ perl:
   - "5.14"
   - "5.12"
   - "5.10"
-install:
-  - "sudo apt-get install libgd2-xpm-dev 2>&1 | tail -n 4"
-  - "cpanm --installdeps --notest ."
-  - "perl ./Build.PL"
-script:
-    - "./Build test"
+before_install:
+  - "sudo apt-get install libgd2-xpm-dev 2>&1 | tail -n 4" # for GD
 notifications:
   irc:
     channels:
