@@ -6,7 +6,7 @@ perl:
   - "5.10"
 install:
   - "cpanm --installdeps --force --notest ."
-  - "perl ./Build.PL"
+  - "perl ./Build.PL --accept"
 script:
     - "./Build test"
 notifications:
