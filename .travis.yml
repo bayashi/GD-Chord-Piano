@@ -5,7 +5,7 @@ perl:
   - "5.12"
   - "5.10"
 install:
-  - "cpanm --installdeps --notest ."
+  - "cpanm --installdeps --force --notest ."
   - "perl ./Build.PL"
 script:
     - "./Build test"
