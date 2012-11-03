@@ -5,6 +5,7 @@ perl:
   - "5.12"
   - "5.10"
 install:
+  - "sudo apt-get install libgd2-xpm-dev 2>&1 | tail -n 4"
   - "cpanm --installdeps --force --notest ."
   - "perl ./Build.PL --accept"
 script:
