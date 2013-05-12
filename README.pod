@@ -5,7 +5,7 @@ This is Perl module B<GD::Chord::Piano>.
 
 =begin html
 
-<a href="http://travis-ci.org/bayashi/GD-Chord-Piano"><img src="https://secure.travis-ci.org/bayashi/GD-Chord-Piano.png"/></a>
+<a href="http://travis-ci.org/bayashi/GD-Chord-Piano"><img src="https://secure.travis-ci.org/bayashi/GD-Chord-Piano.png"/></a> <a href="https://coveralls.io/r/bayashi/GD-Chord-Piano"><img src="https://coveralls.io/repos/bayashi/GD-Chord-Piano/badge.png?branch=master"/></a>
 
 =end html
 

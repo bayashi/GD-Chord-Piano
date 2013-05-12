@@ -1,4 +1,5 @@
-language: perl
+language:
+  perl
 perl:
   - "5.16"
   - "5.14"
@@ -6,9 +7,16 @@ perl:
   - "5.10"
 before_install:
   - "sudo apt-get install libgd2-xpm-dev 2>&1 | tail -n 4" # for GD
+  - cpanm -nq Devel::Cover::Report::Coveralls
+script:
+  perl Build.PL && ./Build build && cover -test
+after_success:
+  - cover -report coveralls
 notifications:
   irc:
     channels:
       - "irc.freenode.net#bayadev"
-    on_success: change
-    on_failure: always
+    on_success:
+      change
+    on_failure:
+      always
